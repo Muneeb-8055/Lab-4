@@ -13,8 +13,14 @@ class Program
         string input2 = Console.ReadLine();
         int num2 = int.Parse(input2);
         
+
+        // Calculate subtraction and display the result
+        int difference = num1 - num2;
+        Console.WriteLine($"The difference of {num1} and {num2} is {difference}.");
+
         // Calculate multiplication and display the result
         int product = num1 * num2;
         Console.WriteLine($"The product of {num1} and {num2} is {product}.");
+
     }
 }
